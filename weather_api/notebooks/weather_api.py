@@ -11,12 +11,12 @@ measurements = jason_data.json()
 #then save this json file
 with open(os.path.join("/Users/sa12/Documents/Repositories/WeatherDataMG/weather_api/data/json/", "measurements.json"), "w") as file:
         json.dump(measurements, file)
+
 df = pd.DataFrame(measurements["hourly"])
 #create dataframe
 #changed the colmumn names for smoother processing
 df.columns = ["time", "temperature", "humidity", "precipitation", "pressure"]
 #change time to datetime for uniformity
-print(df)
 df["time"] = pd.to_datetime(df["time"])
-df = df.set_index(pd.DatetimeIndex(df["time"])).drop("time", axis=1)
+df = df.set_index(pd.DatetimeIndex(df["time"]))
 df.to_csv("/Users/sa12/Documents/Repositories/WeatherDataMG/weather_api/data/csv/measurements.csv", index=False)
