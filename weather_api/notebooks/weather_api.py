@@ -13,10 +13,10 @@ with open(os.path.join("/Users/sa12/Documents/Repositories/WeatherDataMG/weather
         json.dump(measurements, file)
 df = pd.DataFrame(measurements["hourly"])
 #create dataframe
-#change time to datetime for uniformity
-df["time"] = pd.to_datetime(df["time"])
-df.columns = ["time", "temperature", "relative humidity", "precipitation", "surface pressure"]
 #changed the colmumn names for smoother processing
-df.dropna().to_csv("/Users/sa12/Documents/Repositories/WeatherDataMG/weather_api/data/csv/measurements.csv", index=False)
-
-
+df.columns = ["time", "temperature", "humidity", "precipitation", "pressure"]
+#change time to datetime for uniformity
+print(df)
+df["time"] = pd.to_datetime(df["time"])
+df = df.set_index(pd.DatetimeIndex(df["time"])).drop("time", axis=1)
+df.to_csv("/Users/sa12/Documents/Repositories/WeatherDataMG/weather_api/data/csv/measurements.csv", index=False)
