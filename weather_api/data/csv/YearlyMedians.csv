@@ -1,5 +1,5 @@
-temperature,humidity,precipitation,pressure
-"time
+,temperature,humidity,precipitation,pressure
+0,"time
 2022-12-31    18.6
 2023-12-31    20.7
 Freq: YE-DEC, Name: temperature, dtype: float64","time
