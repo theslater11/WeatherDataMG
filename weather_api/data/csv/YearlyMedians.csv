@@ -1,14 +1,3 @@
-,temperature,humidity,precipitation,pressure
-0,"time
-2022-12-31    18.6
-2023-12-31    20.7
-Freq: YE-DEC, Name: temperature, dtype: float64","time
-2022-12-31    78.0
-2023-12-31    78.0
-Freq: YE-DEC, Name: humidity, dtype: float64","time
-2022-12-31    0.0
-2023-12-31    0.0
-Freq: YE-DEC, Name: precipitation, dtype: float64","time
-2022-12-31    911.4
-2023-12-31    913.4
-Freq: YE-DEC, Name: pressure, dtype: float64"
+time,temperature,humidity,precipitation,pressure
+2022-12-31,18.6,78.0,0.0,911.4
+2023-12-31,20.7,78.0,0.0,913.4
