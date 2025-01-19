@@ -1,4 +1,4 @@
-time,temperature_2m,relative_humidity_2m,precipitation,surface_pressure
+time,temperature,humidity,precipitation,pressure
 2017-01-01T00:00,,,,
 2017-01-01T01:00,,,,
 2017-01-01T02:00,,,,
