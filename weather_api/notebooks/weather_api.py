@@ -27,4 +27,4 @@ df.columns = ["time", "temperature", "humidity", "precipitation", "pressure"]
 df.columns = ["time", "temperature", "humidity", "precipitation", "pressure"]
 #change time to datetime for uniformity
 df.to_csv("/Users/sa12/Documents/Repositories/WeatherDataMG/weather_api/data/csv/measurements.csv", index=False)
-df.to_csv("/Users/sa12/Documents/Repositories/WeatherDataMG/weather_api/data/csv/extra_measure.csv", index=False)
+df2.to_csv("/Users/sa12/Documents/Repositories/WeatherDataMG/weather_api/data/csv/extra_measure.csv", index=False)
