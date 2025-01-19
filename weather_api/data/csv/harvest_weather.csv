@@ -1,0 +1,12 @@
+year,country,subdivision,type,million_60kgs_bag,year_x,nonbear_mill_trees,bear_mill_trees,nonbear_thous_hect,bear_thous_hect,trees_hect_bear,trees_hect_nonbear,avg_unemp_perc,year_y,temperature,humidity,precipitation,pressure
+2012,Brazil,Minas Gerais,Arabica,23.5,2012.0,835.0,5760.0,260.0,2150.0,2679.0,3212.0,6.975,,,,,
+2013,Brazil,Minas Gerais,Arabica,28.5,2013.0,1000.0,5860.0,282.0,2105.0,2784.0,3546.0,6.65,,,,,
+2014,Brazil,Minas Gerais,Arabica,29.4,2014.0,1055.0,5810.0,307.0,2135.0,2721.0,3436.0,6.8,,,,,
+2015,Brazil,Minas Gerais,Arabica,26.0,2015.0,1185.0,5770.0,347.0,2090.0,2761.0,3415.0,8.625,,,,,
+2016,Brazil,Minas Gerais,Arabica,25.3,2016.0,1125.0,5735.0,340.0,2070.0,2771.0,3309.0,11.2,,,,,
+2017,Brazil,Minas Gerais,Arabica,32.5,2017.0,1300.0,5640.0,380.0,2020.0,2792.0,3421.0,12.25,,,,,
+2019,Brazil,Minas Gerais,Arabica,34.2,2019.0,1150.0,5740.0,335.0,2060.0,2786.0,3433.0,10.1,,,,,
+2020,Brazil,Minas Gerais,Arabica,29.1,2020.0,1230.0,5700.0,350.0,2040.0,2794.0,3514.0,12.75,,,,,
+2021,Brazil,Minas Gerais,Arabica,34.8,2021.0,1050.0,6200.0,320.0,2100.0,2952.0,3281.0,11.65,,,,,
+2022,Brazil,Minas Gerais,Arabica,24.5,2022.0,1500.0,6010.0,470.0,2010.0,2990.0,3191.0,7.15,2022.0,18.6,78.0,0.0,911.4
+2023,,,,,,,,,,,,,2023.0,20.7,78.0,0.0,913.4
