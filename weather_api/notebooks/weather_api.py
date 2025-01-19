@@ -19,6 +19,8 @@ extra_measure = extra_data.json()
 #then save this json file
 with open(os.path.join("/Users/sa12/Documents/Repositories/WeatherDataMG/weather_api/data/json/", "measurements.json"), "w") as file:
         json.dump(measurements, file)
+with open(os.path.join("/Users/sa12/Documents/Repositories/WeatherDataMG/weather_api/data/json/", "extra_measurements.json"), "w") as file:
+        json.dump(extra_measure, file)
 df = pd.DataFrame(measurements["hourly"])
 df2 = pd.DataFrame(extra_measure["hourly"])
 #create dataframe
